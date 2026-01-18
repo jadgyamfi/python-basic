@@ -1,2 +1,2 @@
 # python-basic
-Python exercises
+This is my repo for my exercises
