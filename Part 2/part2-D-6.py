@@ -1,7 +1,7 @@
 year = int(input("Year: "))
 lpyear = year
 while True:
-    lpyear +=1
+    lpyear +=1 
     div4 = 0 == lpyear % 4
     div100 = 0 == lpyear % 100
     div400 = 0 == lpyear % 400
