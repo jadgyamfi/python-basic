@@ -4,4 +4,4 @@ def print_many_times(word, amount):
         print(word)
         i += -1
 
-print_many_times("jaden got w rizz", 8)
+print_many_times("hello", 8)
