@@ -1,8 +1,12 @@
-while True:
-    num = int(input("Please type in a number:"))
-    ind = 0
-    fact = 1
-    while ind < num:
-        ind += 1
-        fact *= ind
-    print("The factorial of the number", num, "is", fact)
+oddeven = "e"
+n = int(input("Please type in a number: "))
+i = 0
+while i <= n:
+    i += 1
+    if oddeven == "e":
+        print(i + 1)
+        print(i)
+        oddeven = "o"
+        continue
+    elif oddeven == "o":
+        oddeven = "e"
